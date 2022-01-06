@@ -1,0 +1,16 @@
+<html>
+<body>
+<h1>My first web page</h1>
+Enter your name<input type="text"name="name"id="tr">
+<br><input type="submit"name="register"value="submit"onClick="fn()">
+<span id="show"></span>
+<script>
+function fn()
+{
+var a=document.getElementById('tr').value;
+document.getElementById('show').innerHTML="WELCOME"+a;
+}
+</script>
+
+</body>
+</html>
