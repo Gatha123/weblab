@@ -1,0 +1,62 @@
+<html>
+<head>
+<style>
+input[ type="SUBMIT" ]{
+background-color:green;
+width:180px ;
+height:30px;
+border:none;
+border-radius:10px;
+}
+input[ type="SUBMIT" ]:hover{
+background-color:red;
+width:200px ;
+height:40px;
+border:none;
+border-radius:20px;
+}
+.msg{
+background-color:white;
+width:500px;
+height:500px;
+
+
+}
+</style>
+<script>
+function validation(){
+    var name=document.form.name.value;
+   var pass=document.form.name.value;
+  
+   if(name=="")
+       {
+          alert(" name reqired");
+        }    
+     
+   if(pass=="")
+       {
+          alert(" passward reqired");
+        }    
+}
+</script>
+
+ </head>
+<body align="center" background="iko.png">
+
+
+<h1><font color="blue"><b><marquee><u>MSG KARATE</u></marquee></b></h1>
+<center>
+<div class="msg">
+<form action="" method="post" name="form">
+<br><br>
+<br><br>
+ Name:<input type="text" name="name" ><br>
+<br><br>
+passward:<input type="text" name="name" ><br>
+<br><br>
+<input type="SUBMIT" onclick="validation()"><br><br>
+</form>
+</div>
+</center>
+</body>
+</html>
