@@ -1,0 +1,9 @@
+<html>
+<head><title>internal style sheet</title>
+<style>
+h1
+{color:red;}</style>
+</head>
+<body>
+<h1>Hello</h1>
+</body></html>
